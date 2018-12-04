@@ -1,0 +1,4 @@
+.navbar-menu {
+  flex-direction: row-reverse;
+  width: 100%;
+}
