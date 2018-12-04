@@ -1,0 +1,22 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="./DropdownStyles.html">
+
+<dom-module id="my-dropdown">
+  <template>
+    <style include="dropdown-styles"></style>
+
+    <div>
+      aaaaa
+    </div>
+  </template>
+  <script>
+    class Dropdown extends Polymer.Element {
+
+      static get is() {
+        return 'my-dropdown';
+      }
+
+    }
+    customElements.define(Dropdown.is, Dropdown);
+  </script>
+</dom-module>
