@@ -1,4 +1,24 @@
 .navbar-menu {
+  display: flex;
   flex-direction: row-reverse;
   width: 100%;
 }
+
+.navbar-menu-item-link {
+  padding: 1em;
+}
+
+.navbar-menu-item-link:hover {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.navbar-menu-item-link span {
+  border-bottom: 1px solid transparent;
+}
+
+.navbar-menu-item-link span.selected {
+  border-bottom: 1px solid cornflowerblue;
+}
+
+
